@@ -192,15 +192,16 @@ footer img{
     /* font-size: 50px; */
 }
 .social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 16px;
     background-color: #e7e7e8;
     border-radius: 100%;
     width: 32px;
     height: 32px;
     color: #969BAB;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
 }
 
 footer p{
