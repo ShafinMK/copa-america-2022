@@ -182,9 +182,13 @@ footer img{
 }
 .social-medias{
     margin: 20px 0;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: 14px;
+    display: flex;
+    /* grid-template-columns: repeat(4, 1fr); */
+    /* grid-column-gap: 14px; */
+   
+    width: 170px;
+    justify-content: space-around;
+    
 
 
 }
@@ -197,10 +201,12 @@ footer img{
     align-items: center;
     font-size: 16px;
     background-color: #e7e7e8;
+    
     border-radius: 100%;
     width: 32px;
     height: 32px;
     color: #969BAB;
+    
     
 }
 
