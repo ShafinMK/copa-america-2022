@@ -191,7 +191,7 @@ footer img{
 .fa-brands{
     /* font-size: 50px; */
 }
-.social-media{
+.fa-brands,.social-media{
     display: flex;
     justify-content: center;
     align-items: center;
