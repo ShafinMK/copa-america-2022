@@ -213,3 +213,59 @@ footer p{
 /*.......................... 
 Media query 
 .............................*/
+
+@media only screen and (max-width: 688px) {
+ /* header, main{
+     display: none;
+ } */
+ 
+
+ header{
+     width: 100%;
+ }
+ nav{
+     width: 100%;
+     flex-direction: column;
+     align-items: center;
+ }
+ .nav-links{
+     grid-template-columns: repeat(3, 1fr);
+ }
+ .text-image{
+     flex-direction: column;
+     width: 100%;
+     justify-content: center;
+     align-items: center;
+ }
+ .highlight-part{
+     /* width: 100%; */
+     width: 90%;
+ }
+ .highlight-part img{
+     width: 100%;
+     margin-top: 50px;
+ }
+ .cards{
+     grid-template-columns: repeat(1, 1fr);
+     justify-items: center;
+     
+     
+ }
+ .card img, .container{
+     width: 100%;
+ }
+
+ .main{
+     flex-direction: column;
+ }
+ .highlight-description{
+     width: 100%;
+ }
+footer{
+    width: 100%;
+}
+footer img{
+    width: 70%;
+}
+
+}
